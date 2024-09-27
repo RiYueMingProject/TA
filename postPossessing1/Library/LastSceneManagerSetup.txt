@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/ImageEffect/HDRBloom/HDRBloom.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
