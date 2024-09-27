@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmplifyShaderEditor", "AmplifyShaderEditor.csproj", "{8B274A2D-418E-97C5-92F0-ACD220D65507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Postprocessing.Runtime", "Unity.Postprocessing.Runtime.csproj", "{92AB3835-7B6F-C9F8-FB61-0B83399E4209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Postprocessing.Editor", "Unity.Postprocessing.Editor.csproj", "{5094824F-EDC2-55E1-D031-0F73D523B8DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B274A2D-418E-97C5-92F0-ACD220D65507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B274A2D-418E-97C5-92F0-ACD220D65507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B274A2D-418E-97C5-92F0-ACD220D65507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B274A2D-418E-97C5-92F0-ACD220D65507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92AB3835-7B6F-C9F8-FB61-0B83399E4209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92AB3835-7B6F-C9F8-FB61-0B83399E4209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92AB3835-7B6F-C9F8-FB61-0B83399E4209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92AB3835-7B6F-C9F8-FB61-0B83399E4209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5094824F-EDC2-55E1-D031-0F73D523B8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5094824F-EDC2-55E1-D031-0F73D523B8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5094824F-EDC2-55E1-D031-0F73D523B8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5094824F-EDC2-55E1-D031-0F73D523B8DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

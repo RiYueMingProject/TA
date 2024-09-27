@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 83274ec0f665d084a811bcc76e1af3cb
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Matcap2: {fileID: 2800000, guid: 899c606e1a578a64b90bed011b0a78f6, type: 3}
+  - _Matcap: {fileID: 2800000, guid: 899c606e1a578a64b90bed011b0a78f6, type: 3}
+  - _diffuseTexture: {fileID: 2800000, guid: 75d0fe53c7fa1ac4d8a8e86f5ab8f245, type: 3}
+  - _GradientTexture: {fileID: 2800000, guid: 6f235a63f300f3848a8708be5d3123ca, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1175 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 15556 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\unity\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+E:/unityProjects/ASE1
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+8491
+Successfully changed project path to: E:/unityProjects/ASE1
+E:/unityProjects/ASE1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [38188] Host "[IP] 192.168.228.1 [Port] 0 [Flags] 2 [Guid] 249465315 [EditorId] 249465315 [Version] 1048832 [Id] WindowsEditor(7,yeamee) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [38188] Host "[IP] 192.168.228.1 [Port] 0 [Flags] 2 [Guid] 249465315 [EditorId] 249465315 [Version] 1048832 [Id] WindowsEditor(7,yeamee) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 9.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path E:/unity/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/unityProjects/ASE1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7971 MB
+    Driver:   31.0.15.3753
+Initialize mono
+Mono path[0] = 'E:/unity/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'E:/unity/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/unity/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/unity/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/unity/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003047 seconds.
+- Loaded All Assemblies, in  0.239 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.193 seconds
+Domain Reload Profiling: 432ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (91ms)
+		LoadAssemblies (85ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (89ms)
+			TypeCache.Refresh (88ms)
+				TypeCache.ScanAssembly (79ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (194ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (157ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.445 seconds
+Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.399 seconds
+Domain Reload Profiling: 845ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (272ms)
+		LoadAssemblies (214ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (399ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (292ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (231ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3778 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.3 KB). Loaded Objects now: 4241.
+Memory consumption went from 196.9 MB to 196.8 MB.
+Total: 2.514100 ms (FindLiveObjects: 0.279000 ms CreateObjectMapping: 0.118300 ms MarkObjects: 2.019600 ms  DeleteObjects: 0.095900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 302964.908844 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/Icon64.png
+  artifactKey: Guid(2c6536772776dd84f872779990273bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/Icon64.png using Guid(2c6536772776dd84f872779990273bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b73ebf07c2fcf1c849452f665f0c09b') in 0.040052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000966 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ItemCleanupOFF.png
+  artifactKey: Guid(8b6b4ff52c49a2a43a602895465e107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ItemCleanupOFF.png using Guid(8b6b4ff52c49a2a43a602895465e107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7683120d12596ebffa760fe753ed392d') in 0.008028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017019 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Library.png
+  artifactKey: Guid(9a81d7df8e62c044a9d1cada0c8a2131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Library.png using Guid(9a81d7df8e62c044a9d1cada0c8a2131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517299f066c4f539659b9f69267e9890') in 0.006591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.627225 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/LineTex 2.png
+  artifactKey: Guid(03a7d169469c1af41bb03241a7b7e23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/LineTex 2.png using Guid(03a7d169469c1af41bb03241a7b7e23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0b197095f22bc37f1bbb85a1a42aef') in 0.008365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.381752 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/LineTex 4.png
+  artifactKey: Guid(e0f922c44762291498cc62e0917609be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/LineTex 4.png using Guid(e0f922c44762291498cc62e0917609be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afd2c1dbc88e1bf46decadf05a5976b') in 0.006641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018143 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/LiveOFF.png
+  artifactKey: Guid(bb16faf366bcc6c4fbf0d7666b105354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/LiveOFF.png using Guid(bb16faf366bcc6c4fbf0d7666b105354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed8708c0a12b4dec1bd1402b3e67a4a') in 0.005608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.033645 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/LivePending.png
+  artifactKey: Guid(e3182200efb67114eb5050f8955e1746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/LivePending.png using Guid(e3182200efb67114eb5050f8955e1746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0e730db47635ce947ddfb3a1230fbe') in 0.005283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.344244 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/MasterNodeIconOFF.png
+  artifactKey: Guid(712aee08d999c16438e2d694f42428e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/MasterNodeIconOFF.png using Guid(712aee08d999c16438e2d694f42428e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82da379a75b4cb2f9b96ebd2c8a622c') in 0.009201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.030742 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Material.png
+  artifactKey: Guid(157b94751c138d84bbe1768c672b5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Material.png using Guid(157b94751c138d84bbe1768c672b5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5551d7793c78cb20f8cedac7ec91ce33') in 0.009355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.023047 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/MaterialModeIconOFF.png
+  artifactKey: Guid(7040748e1c49b9648aeeefef41c8a3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/MaterialModeIconOFF.png using Guid(7040748e1c49b9648aeeefef41c8a3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e5944dc01533dbe181789d59fd39fe') in 0.006079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.388239 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotLeftOff.png
+  artifactKey: Guid(9f2d5e61dd9821b44a410f36519781d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotLeftOff.png using Guid(9f2d5e61dd9821b44a410f36519781d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda6e2c9c9d5efd2e22c3b32f7ed08b3') in 0.005929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.021500 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotLeftOn.png
+  artifactKey: Guid(4c872bb553406fe44a9d0046a0ef9bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotLeftOn.png using Guid(4c872bb553406fe44a9d0046a0ef9bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138c01eb3cd2cb9029df9b3a145df438') in 0.013550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.356982 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotMidOff.png
+  artifactKey: Guid(eaf512a569994074b9b268ff098b0f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotMidOff.png using Guid(eaf512a569994074b9b268ff098b0f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bbaa168f008a053f6f937ee5bac352') in 0.005478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.030604 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotMidOn.png
+  artifactKey: Guid(133e79bed45185d408f4c5410f89dded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotMidOn.png using Guid(133e79bed45185d408f4c5410f89dded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efcd549066a87470843efbeca6605881') in 0.005200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015241 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotRightOff.png
+  artifactKey: Guid(bfcecef29876cc54db85363cf2feebb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotRightOff.png using Guid(bfcecef29876cc54db85363cf2feebb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1018332d7b51e4399bb2ad46a84e70') in 0.005587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.451781 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotRightOn.png
+  artifactKey: Guid(3821e905373e9fb4aac56ad254ba5769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotRightOn.png using Guid(3821e905373e9fb4aac56ad254ba5769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2407f686df3ca660278ebc563e2e5b') in 0.005789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.014683 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MinimizeWindow.png
+  artifactKey: Guid(2aae9a02747d74d46bf98a15ac5c9b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MinimizeWindow.png using Guid(2aae9a02747d74d46bf98a15ac5c9b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f997418748afaef566718e563af0916') in 0.004932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.805775 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/NodeSelected.png
+  artifactKey: Guid(24fb767323009c143a4e744a2025a27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/NodeSelected.png using Guid(24fb767323009c143a4e744a2025a27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81839e20c3ae0f89c2950b8686ef0da5') in 0.005435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.022276 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/NoPreview.png
+  artifactKey: Guid(750b1bd7ba8bd28489650de6d0a95cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/NoPreview.png using Guid(750b1bd7ba8bd28489650de6d0a95cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a2b8a60bdd5ac5f3830e285f66c0a3') in 0.005860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.569782 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Open.png
+  artifactKey: Guid(d8b538796c7980843b59d62dbcdebef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Open.png using Guid(d8b538796c7980843b59d62dbcdebef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5ba48dcd00f5b35b730d17c27e3a70') in 0.004645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017811 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/OpenSourceCodeOFF.PNG
+  artifactKey: Guid(f7e8834b42791124095a8b7f2d4daac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/OpenSourceCodeOFF.PNG using Guid(f7e8834b42791124095a8b7f2d4daac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c380e943d0d0178d5705161403c5eed2') in 0.004334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.057824 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Options.png
+  artifactKey: Guid(36aa64354f0ba4844af761a937eea4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Options.png using Guid(36aa64354f0ba4844af761a937eea4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850130775da3067b19cef26966df5727') in 0.004338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.289864 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/PreviewOff.png
+  artifactKey: Guid(1f3a46793c375864ab816c0d78061e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/PreviewOff.png using Guid(1f3a46793c375864ab816c0d78061e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180fcd58fb1f020e61bebfa16faa3b5f') in 0.004574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.041741 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/PropertyPicker.png
+  artifactKey: Guid(94816692c85001f4dab01ec3666943c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/PropertyPicker.png using Guid(94816692c85001f4dab01ec3666943c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40db5ead01a658b57ee5bd9a66caaa83') in 0.004189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.307868 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/RemoveFromList.png
+  artifactKey: Guid(75f68506ba820564ea85b2620d78c097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/RemoveFromList.png using Guid(75f68506ba820564ea85b2620d78c097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d23ada512e143450db6bf207f99e1c7') in 0.004527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016516 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/SaveOFF.png
+  artifactKey: Guid(4e4a13447ac514c4ca21e7232bac5486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/SaveOFF.png using Guid(4e4a13447ac514c4ca21e7232bac5486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba3f6d54826426e50af7b2a46194be0') in 0.005313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.311340 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/SelectionAsTemplate.png
+  artifactKey: Guid(8148796947da07d49906f1201f417a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/SelectionAsTemplate.png using Guid(8148796947da07d49906f1201f417a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ea91437d42404248b36f26110d1ade') in 0.005419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016414 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Shader.png
+  artifactKey: Guid(555b6a287b4121b479d412e6ea92bb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Shader.png using Guid(555b6a287b4121b479d412e6ea92bb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b81157e802f254bf3ef1af7bb0fb42') in 0.004274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.317936 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/ShaderFunctionHeaderIcon.png
+  artifactKey: Guid(5b59dcde73b12b746af7ff7c47a1195d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/ShaderFunctionHeaderIcon.png using Guid(5b59dcde73b12b746af7ff7c47a1195d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e045b4a8db9e335bc75c16958d3e0ec7') in 0.005365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.014771 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderFunctionModeIcon.png
+  artifactKey: Guid(68897d376b60748438e0ae3474ebe558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderFunctionModeIcon.png using Guid(68897d376b60748438e0ae3474ebe558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c49a437e2c3d64b23a108fe345d125') in 0.004902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.343050 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderModeIcon.PNG
+  artifactKey: Guid(f4ca92d9e50d06049b7ccec2c438754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderModeIcon.PNG using Guid(f4ca92d9e50d06049b7ccec2c438754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31de7d98a64d71b11eedbedbf222c37e') in 0.004795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.021407 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderModeMatIcon.png
+  artifactKey: Guid(6f410c15ce9be2741bae77a30a336748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderModeMatIcon.png using Guid(6f410c15ce9be2741bae77a30a336748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311c5ce57b00ae80800d65fa74bbfc17') in 0.015848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.539924 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ShaderSelectON.png
+  artifactKey: Guid(e737e4bfd0859a946b0c5feddb61d29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ShaderSelectON.png using Guid(e737e4bfd0859a946b0c5feddb61d29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b83eb488a88bae87bec49e6580ab2a') in 0.008656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.038553 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/SliderButton.png
+  artifactKey: Guid(dd563e33152bb6443b099b4139ceecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/SliderButton.png using Guid(dd563e33152bb6443b099b4139ceecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b220173686e2a840701bfdce02cea79') in 0.009705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.021600 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/TakeScreenshotOFF.png
+  artifactKey: Guid(7587de2e3bec8bf4d973109524ccc6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/TakeScreenshotOFF.png using Guid(7587de2e3bec8bf4d973109524ccc6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac79332eb516397b3831a939a83bd959') in 0.008249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.440264 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/TransparentOverlay.png
+  artifactKey: Guid(8c4a7fca2884fab419769ccc0355c0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/TransparentOverlay.png using Guid(8c4a7fca2884fab419769ccc0355c0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d5a2af7a73ee18bb964ee983d6b0d0') in 0.008664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.024152 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/UpdateOFF.png
+  artifactKey: Guid(99d70ac09b4db9742b404c3f92d8564b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/UpdateOFF.png using Guid(99d70ac09b4db9742b404c3f92d8564b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc72f4450cb1c10af94283e3a7044b2') in 0.006288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.404668 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/UpdateUpToDated.png
+  artifactKey: Guid(ce30b12fbb3223746bcfef9ea82effe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/UpdateUpToDated.png using Guid(ce30b12fbb3223746bcfef9ea82effe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526d71b5bb21ac9af1cff2702a1d7b4c') in 0.008693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.032613 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/WhitePortOutline.png
+  artifactKey: Guid(56277f370fb77a448a152bcd2e3a9077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/WhitePortOutline.png using Guid(56277f370fb77a448a152bcd2e3a9077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65893e26e21b902b4c002260addf01a') in 0.016652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.451828 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/WireNodeSelection.png
+  artifactKey: Guid(bfe0b03d5d60cea4f9d4b2d1d121e592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/WireNodeSelection.png using Guid(bfe0b03d5d60cea4f9d4b2d1d121e592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6d870c419a2408f655df23479ae1b4') in 0.006857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 694.758023 seconds.
+  path: Assets/Serah Fei Bikini/Prefabs/SerahBikini.prefab
+  artifactKey: Guid(987576ea6c44e534d95bd5c51872d50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Prefabs/SerahBikini.prefab using Guid(987576ea6c44e534d95bd5c51872d50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ce9114ecfc7d7cfe7cb029db32684c') in 0.598488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 555
+========================================================================
+Received Import Request.
+  Time since last request: 1.205226 seconds.
+  path: Assets/Serah Fei Bikini/Prefabs/SerahBikinihair.prefab
+  artifactKey: Guid(fb13ca29c3bd72d4d81d28b73f019304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Prefabs/SerahBikinihair.prefab using Guid(fb13ca29c3bd72d4d81d28b73f019304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b646350a5f45abead670620f7c76ddd7') in 0.062240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 542
+========================================================================
+Received Import Request.
+  Time since last request: 1.205334 seconds.
+  path: Assets/Serah Fei Bikini/materials
+  artifactKey: Guid(d360006d775036c49b440fdeee61db0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/materials using Guid(d360006d775036c49b440fdeee61db0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9437fe4a9c7c0dcede1e7eee0358f3') in 0.000536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.405072 seconds.
+  path: Assets/Serah Fei Bikini
+  artifactKey: Guid(b64ecf2b3e55d844fa8b6866e8a2ecf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini using Guid(b64ecf2b3e55d844fa8b6866e8a2ecf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001c966d1692ea8324e742a66ced04f2') in 0.000409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.303852 seconds.
+  path: Assets/Serah Fei Bikini/Standalone
+  artifactKey: Guid(16bb2568e29f234478f6a309fd3be97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Standalone using Guid(16bb2568e29f234478f6a309fd3be97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a7ffa034e9403313133ae112ed2d8a') in 0.000462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.296429 seconds.
+  path: Assets/Serah Fei Bikini/serahreikkahairv1B.FBX
+  artifactKey: Guid(84a85db59fbd6f14b878c609124c7408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/serahreikkahairv1B.FBX using Guid(84a85db59fbd6f14b878c609124c7408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5823acdd8094596e8d6fd800316e163') in 0.065945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0.989676 seconds.
+  path: Assets/Serah Fei Bikini/SSS-plugin-unity.zip
+  artifactKey: Guid(5d0c28290cbff8a44856cffeb0b5443b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/SSS-plugin-unity.zip using Guid(5d0c28290cbff8a44856cffeb0b5443b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfdfea99b1f1f5c70c6213b2aaa6ea5') in 0.000846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.365656 seconds.
+  path: Assets/Serah Fei Bikini/README-HowToInstall.pdf
+  artifactKey: Guid(ff5b8e4aebae2d44dade37ef1e8b0503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/README-HowToInstall.pdf using Guid(ff5b8e4aebae2d44dade37ef1e8b0503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391f42cc6d1222cfec22f3b2fc16e5f3') in 0.000881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.820 seconds
+Refreshing native plugins compatible for Editor in 4.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.362 seconds
+Domain Reload Profiling: 2182ms
+	BeginReloadAssembly (477ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (115ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (235ms)
+		LoadAssemblies (527ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1362ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (284ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (218ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3683 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (2.9 MB). Loaded Objects now: 4371.
+Memory consumption went from 169.2 MB to 166.3 MB.
+Total: 3.394400 ms (FindLiveObjects: 0.343400 ms CreateObjectMapping: 0.131800 ms MarkObjects: 1.909800 ms  DeleteObjects: 1.008200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 124.950664 seconds.
+  path: Assets/Serah Fei Bikini/Serah Fei Bikini.unity
+  artifactKey: Guid(2501e0ab7592eef4dbe6218bb7d08ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Serah Fei Bikini.unity using Guid(2501e0ab7592eef4dbe6218bb7d08ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd662e394699bc099faa03059f4b900ff') in 0.007264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.798850 seconds.
+  path: Assets/Serah Fei Bikini/SSS-plugin-unity/PostProcessing/Editor
+  artifactKey: Guid(e0e418747b892364db5c5f4451e67ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/SSS-plugin-unity/PostProcessing/Editor using Guid(e0e418747b892364db5c5f4451e67ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ecc33d806a5457bb2a0e5974ef1b1e') in 0.000611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 72.268173 seconds.
+  path: Assets/Serah Fei Bikini/textures/Hair
+  artifactKey: Guid(de88a3136894e7d4dbda9ff84cc92941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/Hair using Guid(de88a3136894e7d4dbda9ff84cc92941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8797de6a3572de67bb92e96c84e4dfdd') in 0.000459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.770641 seconds.
+  path: Assets/Serah Fei Bikini/textures/1Eyes01D_1006.png
+  artifactKey: Guid(7faa04729871d164e8d1f78eae46e9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/1Eyes01D_1006.png using Guid(7faa04729871d164e8d1f78eae46e9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468177002a1ba581c530d57f6c10fcf6') in 0.030780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.692552 seconds.
+  path: Assets/Serah Fei Bikini/textures/1sceleraEyes01D_1006.png
+  artifactKey: Guid(eff064f1de2fd50419f62a2e6887cc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/1sceleraEyes01D_1006.png using Guid(eff064f1de2fd50419f62a2e6887cc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3375e518479c3e21f21a16bc0362c201') in 0.008138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.572944 seconds.
+  path: Assets/Serah Fei Bikini/textures/3FaceSerahsssD01.png
+  artifactKey: Guid(cc6ca1e7c3a6421449f292e9ce50ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/3FaceSerahsssD01.png using Guid(cc6ca1e7c3a6421449f292e9ce50ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d61537bc2580ec4e764d46539761d0a') in 0.047342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.645487 seconds.
+  path: Assets/Serah Fei Bikini/textures/SerahFaceSSS02_1001.png
+  artifactKey: Guid(be411186c56110e48938adad4e05f164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/SerahFaceSSS02_1001.png using Guid(be411186c56110e48938adad4e05f164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a477a816a51b2318076ec96a0ee507e') in 0.038828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.487865 seconds.
+  path: Assets/Serah Fei Bikini/textures/sf-ArmsD_1004.png
+  artifactKey: Guid(197aa1dc3b4046543a5cb024f3e8b77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/sf-ArmsD_1004.png using Guid(197aa1dc3b4046543a5cb024f3e8b77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eec5dc0ece93e0582fa2b535038d1f4') in 0.006929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.236955 seconds.
+  path: Assets/Serah Fei Bikini/textures/sf-Eyes01D_1006.png
+  artifactKey: Guid(e9993779e9068d445b2448e5970759e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/sf-Eyes01D_1006.png using Guid(e9993779e9068d445b2448e5970759e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a80da91b8564c068fcb9ad17eddf8b') in 0.037083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.635119 seconds.
+  path: Assets/Serah Fei Bikini/textures/sf-ArmsSSS_1004.png
+  artifactKey: Guid(f4b8da0bbb44b324ea50fea68fd643e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/sf-ArmsSSS_1004.png using Guid(f4b8da0bbb44b324ea50fea68fd643e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab4e9aa47fdc6b1dda8d14d74eedbf7') in 0.009307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.403069 seconds.
+  path: Assets/Serah Fei Bikini/textures/Hair/png.png
+  artifactKey: Guid(bcc4a017c1eac984194c679ba89fac9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/Hair/png.png using Guid(bcc4a017c1eac984194c679ba89fac9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31421f647633ef919592250a97e0e132') in 0.005651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.401068 seconds.
+  path: Assets/Serah Fei Bikini/textures/Hair/sf-Hairb.tif
+  artifactKey: Guid(47e89a9586223c243b3927c25fe9b7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/Hair/sf-Hairb.tif using Guid(47e89a9586223c243b3927c25fe9b7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b53144fc856d077e0fd93c589a1b7c') in 0.006752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.569548 seconds.
+  path: Assets/Serah Fei Bikini/textures/Hair/sf-HairCap.tif
+  artifactKey: Guid(8d340411d0495e744bc55689ec14a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/Hair/sf-HairCap.tif using Guid(8d340411d0495e744bc55689ec14a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338544f22158ab7039d0f15f82cf5a14') in 0.014835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.599590 seconds.
+  path: Assets/Serah Fei Bikini/Standalone/SerahBikiniv1.FBX
+  artifactKey: Guid(40aaccdb475de0f44a8e96255e846ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Standalone/SerahBikiniv1.FBX using Guid(40aaccdb475de0f44a8e96255e846ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5268ede0d1be90811e5ba11f44868242') in 0.293027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 424
+========================================================================
+Received Import Request.
+  Time since last request: 66.793040 seconds.
+  path: Assets/Serah Fei Bikini/Prefabs/SerahBikini.prefab
+  artifactKey: Guid(987576ea6c44e534d95bd5c51872d50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Prefabs/SerahBikini.prefab using Guid(987576ea6c44e534d95bd5c51872d50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499ec5a572214c5f522e742b0eaa0842') in 0.112575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 556
+========================================================================
+Received Import Request.
+  Time since last request: 0.445593 seconds.
+  path: Assets/Serah Fei Bikini/Prefabs/SerahBikinihair.prefab
+  artifactKey: Guid(fb13ca29c3bd72d4d81d28b73f019304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Prefabs/SerahBikinihair.prefab using Guid(fb13ca29c3bd72d4d81d28b73f019304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bc1fb3a48294fc0d66789a6542409c') in 0.056995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 543
+========================================================================
+Received Import Request.
+  Time since last request: 25.429329 seconds.
+  path: Assets/Serah Fei Bikini/SSS-plugin-unity/PostProcessing
+  artifactKey: Guid(fa986ec801e737041bf4523527097202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/SSS-plugin-unity/PostProcessing using Guid(fa986ec801e737041bf4523527097202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdf886369a2fa1ceb0431f0b67e883f') in 0.000543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.095522 seconds.
+  path: Assets/Serah Fei Bikini/Sf-Bikini
+  artifactKey: Guid(66eb9b98229c584419eea5c960424329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Sf-Bikini using Guid(66eb9b98229c584419eea5c960424329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c58b7d1b13c3bec757d5e7d74379143') in 0.000473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.524617 seconds.
+  path: Assets/Serah Fei Bikini/Sf-Bikini/materials
+  artifactKey: Guid(8292b70674567624686ccc079c5c10c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Sf-Bikini/materials using Guid(8292b70674567624686ccc079c5c10c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7710ffd5ad87a8aff3ac5819b88c0602') in 0.000600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.380549 seconds.
+  path: Assets/Serah Fei Bikini/Sf-Bikini/sf-BikiniBottom_Base_Color.png
+  artifactKey: Guid(07588b7bb0c3ca34a81849bbc30112f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Sf-Bikini/sf-BikiniBottom_Base_Color.png using Guid(07588b7bb0c3ca34a81849bbc30112f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f2787270fa56fb4b3c7030138f1137') in 0.006719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.654769 seconds.
+  path: Assets/Serah Fei Bikini/Sf-Bikini/sf-BikiniBottom_Metallic.png
+  artifactKey: Guid(f944a2ed5977fc247a84dba30e0da849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Sf-Bikini/sf-BikiniBottom_Metallic.png using Guid(f944a2ed5977fc247a84dba30e0da849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822c58e2eaed134206240ed64160a03d') in 0.009651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.488300 seconds.
+  path: Assets/Serah Fei Bikini/Sf-Bikini/sf-BikiniBottom_Normal_DirectX.png
+  artifactKey: Guid(ce8207404191c004ba4f561389202b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Sf-Bikini/sf-BikiniBottom_Normal_DirectX.png using Guid(ce8207404191c004ba4f561389202b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126604e1abc8d462c0f6b7481a6265d0') in 0.044718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.567149 seconds.
+  path: Assets/Serah Fei Bikini/Sf-Bikini/sf-BikiniTop_Base_Color.png
+  artifactKey: Guid(8a43b15804c769e40aff2e85879c6eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Sf-Bikini/sf-BikiniTop_Base_Color.png using Guid(8a43b15804c769e40aff2e85879c6eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4452732f9024e78b65d2eef25ea84f4') in 0.020228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.654705 seconds.
+  path: Assets/Serah Fei Bikini/Sf-Bikini/sf-BikiniTop_Metallic.png
+  artifactKey: Guid(2d80303e6862c874095eb2a4fd724893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Sf-Bikini/sf-BikiniTop_Metallic.png using Guid(2d80303e6862c874095eb2a4fd724893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79009af6a6012195901836e7e17295d2') in 0.007171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.197800 seconds.
+  path: Assets/Serah Fei Bikini/Sf-Bikini/sf-BikiniTop_Normal_DirectX.png
+  artifactKey: Guid(a942246bed7d97b4a90a6c25676e1e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Sf-Bikini/sf-BikiniTop_Normal_DirectX.png using Guid(a942246bed7d97b4a90a6c25676e1e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5b96c2e13165ea045e66d2ccaad31c') in 0.011097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 151.486657 seconds.
+  path: Assets/Serah Fei Bikini/textures/sf_Face_NM_1001.png
+  artifactKey: Guid(09e62e018f05b0a4382e2e7f92a78826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/sf_Face_NM_1001.png using Guid(09e62e018f05b0a4382e2e7f92a78826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6cd9a97c2fd00e5fc0b3a80ca3e6a88') in 0.067651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 49.503640 seconds.
+  path: Assets/Serah Fei Bikini/textures/sf-ArmsS_1004.png
+  artifactKey: Guid(7e559fb9bc2daf247a86466ad40e6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/sf-ArmsS_1004.png using Guid(7e559fb9bc2daf247a86466ad40e6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96df3b599aa682c9ef811677e4c5d3cd') in 0.039622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.445577 seconds.
+  path: Assets/Serah Fei Bikini/textures/sf-FaceS02_1001.png
+  artifactKey: Guid(1c2982d8ba3520c4d86293d97a88c5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/sf-FaceS02_1001.png using Guid(1c2982d8ba3520c4d86293d97a88c5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55af51bf369b9a0100934785a8b32cba') in 0.010658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.513660 seconds.
+  path: Assets/Serah Fei Bikini/textures/sf-LegsD_1003.png
+  artifactKey: Guid(94b33d97ae120bc4dbf3840fe0d5530f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/sf-LegsD_1003.png using Guid(94b33d97ae120bc4dbf3840fe0d5530f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68536ae2fa811d2741f549266570595e') in 0.051583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.582090 seconds.
+  path: Assets/Serah Fei Bikini/textures/sf-LegsSSS_1003.png
+  artifactKey: Guid(e9dcf12cfcfdc08439f0154ac400e1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/sf-LegsSSS_1003.png using Guid(e9dcf12cfcfdc08439f0154ac400e1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ade5fe55fdeceb9b55e52b4c26c450e') in 0.039466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.720726 seconds.
+  path: Assets/Serah Fei Bikini/textures/sf-MouthD_1005.png
+  artifactKey: Guid(66ab77560568cd64d946df9425c89fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/sf-MouthD_1005.png using Guid(66ab77560568cd64d946df9425c89fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8b477d1a330fc5e87c29d7397c2dac') in 0.007282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.949969 seconds.
+  path: Assets/Serah Fei Bikini/textures/sf-TorsoD_1002.png
+  artifactKey: Guid(8185b2d27b1b39940bebd5daef70c0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/sf-TorsoD_1002.png using Guid(8185b2d27b1b39940bebd5daef70c0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fe36f8eafdcdab68df53651a2063ac') in 0.040994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.617861 seconds.
+  path: Assets/Serah Fei Bikini/textures/sf-TorsoSSS_1002.png
+  artifactKey: Guid(6cbfbdf3dd6b3704e8539dd94434caed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/sf-TorsoSSS_1002.png using Guid(6cbfbdf3dd6b3704e8539dd94434caed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8a688a36c2e9419fb163226f4569e4') in 0.052451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 212.662393 seconds.
+  path: Assets/shaders/Scan.shader
+  artifactKey: Guid(04b37d2150924f346abf2480f2f11369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Scan.shader using Guid(04b37d2150924f346abf2480f2f11369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7c60cd3dcc9681c15da1eab7d547f9') in 0.000719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.447094 seconds.
+  path: Assets/Serah Fei Bikini/textures/Eyelashes.tif
+  artifactKey: Guid(07984c64cc1354f9abe7f1af800d759f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/Eyelashes.tif using Guid(07984c64cc1354f9abe7f1af800d759f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0281ef3282ab61ac72edfa53cd51f87a') in 0.040559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 235.992106 seconds.
+  path: Assets/Serah Fei Bikini/textures/sf_Arms_NM_1004.png
+  artifactKey: Guid(ebf086cb5e6257d4ebcb95cac5a0e002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/sf_Arms_NM_1004.png using Guid(ebf086cb5e6257d4ebcb95cac5a0e002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416411b4e19b2642111883cfd3ae3ee5') in 0.014810 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.353035 seconds.
+  path: Assets/Serah Fei Bikini/textures/sfeyespurple.tif
+  artifactKey: Guid(9cb2ec27218acc748b4ea6fb8dba21da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/sfeyespurple.tif using Guid(9cb2ec27218acc748b4ea6fb8dba21da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46be276180fedc261074dace814c3dcc') in 0.009762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 74.142461 seconds.
+  path: Assets/Serah Fei Bikini/Standalone/SerahBikiniv1.fbm/sf-MouthD_1005.jpg
+  artifactKey: Guid(256a0a92df06f3b479fb17d5afa86b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Standalone/SerahBikiniv1.fbm/sf-MouthD_1005.jpg using Guid(256a0a92df06f3b479fb17d5afa86b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fa78b54c84fd26f5f31cb2bb3b8bd8') in 0.008664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.825893 seconds.
+  path: Assets/Serah Fei Bikini/textures/sf_Legs_NM_1003.png
+  artifactKey: Guid(6cee0c8d75272fd4a99e305b80bb47c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/textures/sf_Legs_NM_1003.png using Guid(6cee0c8d75272fd4a99e305b80bb47c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6775f6da4a11dc4c97fdeb10135d25de') in 0.007584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.114382 seconds.
+  path: Assets/Serah Fei Bikini/SSS-plugin-unity/PostProcessing/Textures/Spectral LUTs/SpectralLut_BlueRed.tga
+  artifactKey: Guid(318cbcd94840f1d48aca4d86234dc2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/SSS-plugin-unity/PostProcessing/Textures/Spectral LUTs/SpectralLut_BlueRed.tga using Guid(318cbcd94840f1d48aca4d86234dc2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9eef905022588ed8f275093bef10b81') in 0.010159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.038200 seconds.
+  path: Assets/Serah Fei Bikini/SSS-plugin-unity/PostProcessing/Textures/Spectral LUTs/SpectralLut_GreenPurple.tga
+  artifactKey: Guid(4a8f054acfbd08043a931cd22760758d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/SSS-plugin-unity/PostProcessing/Textures/Spectral LUTs/SpectralLut_GreenPurple.tga using Guid(4a8f054acfbd08043a931cd22760758d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca41dec9135388f07355eae79c86efc2') in 0.015728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 145.412865 seconds.
+  path: Assets/Serah Fei Bikini/Prefabs/SerahBikini.prefab
+  artifactKey: Guid(987576ea6c44e534d95bd5c51872d50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Prefabs/SerahBikini.prefab using Guid(987576ea6c44e534d95bd5c51872d50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebee52ebc5542569df1da68460039c91') in 0.128140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 556
+========================================================================
+Received Import Request.
+  Time since last request: 0.760973 seconds.
+  path: Assets/Serah Fei Bikini/Prefabs/SerahBikinihair.prefab
+  artifactKey: Guid(fb13ca29c3bd72d4d81d28b73f019304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Prefabs/SerahBikinihair.prefab using Guid(fb13ca29c3bd72d4d81d28b73f019304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960f89488d3a0e8bb42cf6665f3c885c') in 0.072267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 543
+========================================================================
+Received Import Request.
+  Time since last request: 87.357963 seconds.
+  path: Assets/Serah Fei Bikini/Serah Fei Bikini.unity
+  artifactKey: Guid(2501e0ab7592eef4dbe6218bb7d08ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Serah Fei Bikini.unity using Guid(2501e0ab7592eef4dbe6218bb7d08ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450f8499581f701deecd439b9e6aa753') in 0.000486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.701756 seconds.
+  path: Assets/Serah Fei Bikini/SSS-plugin-unity/CS_Subsurface/Features/Eye
+  artifactKey: Guid(c6133a16c54229646be647da0f7866f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/SSS-plugin-unity/CS_Subsurface/Features/Eye using Guid(c6133a16c54229646be647da0f7866f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefafd68207e50c95c49a777ead33402') in 0.000663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 867.819523 seconds.
+  path: Assets/models/maideGirl.fbx
+  artifactKey: Guid(370ec8e92c96ba047b11a874d0a55bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/maideGirl.fbx using Guid(370ec8e92c96ba047b11a874d0a55bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8e0f99459c2ad385c063e42c1a1cb1') in 0.566037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1333
+========================================================================
+Received Import Request.
+  Time since last request: 984.248404 seconds.
+  path: Assets/Serah Fei Bikini/Standalone/SerahBikiniv1.fbm/1Eyes01D_1006.jpg
+  artifactKey: Guid(ed0c86763c9fdaa40bf73f494c705a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Standalone/SerahBikiniv1.fbm/1Eyes01D_1006.jpg using Guid(ed0c86763c9fdaa40bf73f494c705a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95da6be716efccbf8302b2076882b7e') in 0.030906 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16391.900053 seconds.
+  path: Assets/shaders/Scan.shader
+  artifactKey: Guid(04b37d2150924f346abf2480f2f11369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Scan.shader using Guid(04b37d2150924f346abf2480f2f11369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf66dfdbb9fc85ab76de5d65bfa0f86') in 0.012464 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2597.931421 seconds.
+  path: Assets/Serah Fei Bikini/Standalone/SerahBikiniv1.fbm/Armanas Eyelashes_Trans.jpg
+  artifactKey: Guid(8e282834cc5f17642a335157e2be8df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/Standalone/SerahBikiniv1.fbm/Armanas Eyelashes_Trans.jpg using Guid(8e282834cc5f17642a335157e2be8df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5231d0bab05312bdc12ca3e5aa9e8097') in 0.100553 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.811258 seconds.
+  path: Assets/Serah Fei Bikini/SSS-plugin-unity/CS_Subsurface/Features/MirrorEyeDisplacement/CustomTexture_Mirror_Displacement.asset
+  artifactKey: Guid(59dc8ad9ee0f4cf499cb650e2f2faa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/SSS-plugin-unity/CS_Subsurface/Features/MirrorEyeDisplacement/CustomTexture_Mirror_Displacement.asset using Guid(59dc8ad9ee0f4cf499cb650e2f2faa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b802f01bacfcf2930bdc2ae4d174331') in 0.126019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.136 seconds
+Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.493 seconds
+Domain Reload Profiling: 2631ms
+	BeginReloadAssembly (511ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (262ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (561ms)
+		LoadAssemblies (699ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1494ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (324ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3683 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (2.9 MB). Loaded Objects now: 4411.
+Memory consumption went from 172.1 MB to 169.2 MB.
+Total: 5.608900 ms (FindLiveObjects: 0.291700 ms CreateObjectMapping: 0.080800 ms MarkObjects: 4.133200 ms  DeleteObjects: 1.101900 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 224.290522 seconds.
+  path: Assets/images/Emiss.png
+  artifactKey: Guid(4b437af2554f8c549bd596e8626defc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/Emiss.png using Guid(4b437af2554f8c549bd596e8626defc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009e20c7e47ebad145ee08fe12196495') in 0.070539 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 128.387891 seconds.
+  path: Assets/images/Emiss.png
+  artifactKey: Guid(4b437af2554f8c549bd596e8626defc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/Emiss.png using Guid(4b437af2554f8c549bd596e8626defc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca1da7abff8422fd247d2d685a07e56') in 0.008066 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 42.775304 seconds.
+  path: Assets/Serah Fei Bikini/SSS-plugin-unity/CS_Subsurface/Features/MirrorEyeDisplacement/CustomTexture_Mirror_Normals.asset
+  artifactKey: Guid(4c0b63bf9e40c214c9533b3455408f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serah Fei Bikini/SSS-plugin-unity/CS_Subsurface/Features/MirrorEyeDisplacement/CustomTexture_Mirror_Normals.asset using Guid(4c0b63bf9e40c214c9533b3455408f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fc8b464ddd7099bf999e7e9cb2cb42') in 0.041429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 235.812033 seconds.
+  path: Assets/models/SK_Mannequin.FBX
+  artifactKey: Guid(0ce31fa0b03b9ea42a2fbba214691b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SK_Mannequin.FBX using Guid(0ce31fa0b03b9ea42a2fbba214691b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cc70c0364864d7848b830808cd3c49') in 0.075922 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 147
+========================================================================
+Received Import Request.
+  Time since last request: 84.127218 seconds.
+  path: Assets/images/Emiss.png
+  artifactKey: Guid(4b437af2554f8c549bd596e8626defc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/Emiss.png using Guid(4b437af2554f8c549bd596e8626defc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549b72814d50cdee02129dec55c5dfab') in 0.008014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 239.112499 seconds.
+  path: Assets/images/Emiss.png
+  artifactKey: Guid(4b437af2554f8c549bd596e8626defc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/Emiss.png using Guid(4b437af2554f8c549bd596e8626defc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55bda0978691abd2bd71cccfee73eda') in 0.006258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 44.944542 seconds.
+  path: Assets/images/Emiss.png
+  artifactKey: Guid(4b437af2554f8c549bd596e8626defc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/Emiss.png using Guid(4b437af2554f8c549bd596e8626defc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338e309ec2a1906e501d89888a2403e4') in 0.006284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 860.569404 seconds.
+  path: Assets/images/Emiss.png
+  artifactKey: Guid(4b437af2554f8c549bd596e8626defc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/Emiss.png using Guid(4b437af2554f8c549bd596e8626defc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf7bc64ae2e28dae48ff835fd09b801') in 0.011108 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 2
